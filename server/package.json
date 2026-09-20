@@ -1,0 +1,8 @@
+{
+  "name": "ink-marble-server",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  }
+}

@@ -3,7 +3,12 @@ import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Link, NavLink, Route, Routes, useLocation, useParams } from 'react-router-dom';
 import { ArrowUpRight, ChevronRight, Menu, Search, X } from 'lucide-react';
 import { getPhilosopher, getTradition, philosophers, questions, traditions } from './data';
+import { GalleryProvider } from './gallery/GalleryContext.jsx';
+import Gallery from './gallery/Gallery.jsx';
+import FigurePage from './gallery/FigurePage.jsx';
+import QuestionPage from './gallery/QuestionPage.jsx';
 import './styles.css';
+import './gallery/gallery.css';
 
 function useReadingLog() {
   const [log, setLog] = useState(() => {
@@ -34,6 +39,7 @@ function Layout({ children }) {
         <NavLink to="/traditions">思想传统</NavLink>
         <NavLink to="/philosophers">哲学家</NavLink>
         <NavLink to="/questions">核心问题</NavLink>
+        <NavLink to="/gallery">东西长廊</NavLink>
         <span className="nav-rule" />
         <span className="archive-status"><span className="status-dot" />正在开放 · 24 典藏</span>
       </nav>
@@ -79,6 +85,6 @@ function QuestionDetail() { const { id } = useParams(); const question = questio
 
 function NotFound() { return <main className="page-main section-pad"><PageIntro kicker="404" title="这页还在路上。" intro="返回档案馆，换一条路径继续。" /><Link className="text-link" to="/">回到首页 <ArrowUpRight size={16} /></Link></main>; }
 
-function App() { return <Layout><Routes><Route path="/" element={<Home />} /><Route path="/traditions" element={<Traditions />} /><Route path="/philosophers" element={<Philosophers />} /><Route path="/questions" element={<Questions />} /><Route path="/tradition/:id" element={<TraditionDetail />} /><Route path="/philosopher/:id" element={<PhilosopherDetail />} /><Route path="/question/:id" element={<QuestionDetail />} /><Route path="*" element={<NotFound />} /></Routes></Layout>; }
+function App() { return <Layout><Routes><Route path="/" element={<Home />} /><Route path="/traditions" element={<Traditions />} /><Route path="/philosophers" element={<Philosophers />} /><Route path="/questions" element={<Questions />} /><Route path="/tradition/:id" element={<TraditionDetail />} /><Route path="/philosopher/:id" element={<PhilosopherDetail />} /><Route path="/question/:id" element={<QuestionDetail />} /><Route path="/gallery" element={<GalleryProvider><Gallery /></GalleryProvider>} /><Route path="/gallery/figure/:id" element={<GalleryProvider><FigurePage /></GalleryProvider>} /><Route path="/gallery/question/:id" element={<GalleryProvider><QuestionPage /></GalleryProvider>} /><Route path="*" element={<NotFound />} /></Routes></Layout>; }
 
 createRoot(document.getElementById('root')).render(<BrowserRouter><App /></BrowserRouter>);

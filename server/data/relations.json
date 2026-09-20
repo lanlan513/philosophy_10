@@ -1,0 +1,17 @@
+{
+  "relations": [
+    { "id": "r1", "question": "virtue", "a": { "figure": "confucius", "quote": "c1" }, "b": { "figure": "socrates", "quote": "s1" }, "note": "「为仁由己」与「省察生活」：两人都把德性的功课交还给每个人自己。" },
+    { "id": "r2", "question": "virtue", "a": { "figure": "confucius", "quote": "c3" }, "b": { "figure": "socrates", "quote": "s2" }, "note": "学与思并提，正如「自知无知」——真正的知道始于承认边界。" },
+    { "id": "r3", "question": "being-nothing", "a": { "figure": "laozi", "quote": "l1" }, "b": { "figure": "parmenides", "quote": "p1" }, "note": "同一问题，相反答案：「有生于无」对「无不可能存在」。" },
+    { "id": "r4", "question": "being-nothing", "a": { "figure": "laozi", "quote": "l2" }, "b": { "figure": "parmenides", "quote": "p3" }, "note": "语言的边界：「非常道」与「不可言说」——两人都承认根本之物抗拒命名。" },
+    { "id": "r5", "question": "change", "a": { "figure": "zhuangzi", "quote": "z1" }, "b": { "figure": "heraclitus", "quote": "h1" }, "note": "方生方死，如河流不居——同一性不在质料，而在流变本身。" },
+    { "id": "r6", "question": "change", "a": { "figure": "zhuangzi", "quote": "z2" }, "b": { "figure": "heraclitus", "quote": "h2" }, "note": "周与蝶「必有分」而相化，如弓与琴相反而成。" },
+    { "id": "r7", "question": "reason-limit", "a": { "figure": "nagarjuna", "quote": "n2" }, "b": { "figure": "kant", "quote": "k2" }, "note": "「八不」与「二律背反」：理性对整体下断言时，两头都塌。" },
+    { "id": "r8", "question": "reason-limit", "a": { "figure": "nagarjuna", "quote": "n3" }, "b": { "figure": "kant", "quote": "k1" }, "note": "「以有空义故，一切法得成」与「概念无直观则盲」——条件性不是缺陷，是可能性的地基。" },
+    { "id": "r9", "question": "nothingness", "a": { "figure": "huineng", "quote": "hu1" }, "b": { "figure": "sartre", "quote": "sa1" }, "note": "「本来无一物」与「存在先于本质」：没有现成的自我，是解脱还是重负？" },
+    { "id": "r10", "question": "nothingness", "a": { "figure": "huineng", "quote": "hu2" }, "b": { "figure": "sartre", "quote": "sa2" }, "note": "「无住」与「被判定自由」：不滞留，与不逃避。" },
+    { "id": "r11", "question": "certainty", "a": { "figure": "wangyangming", "quote": "w3" }, "b": { "figure": "descartes", "quote": "d1" }, "note": "良知与我思：怀疑与放逐之后，内心剩下的主宰。" },
+    { "id": "r12", "question": "certainty", "a": { "figure": "wangyangming", "quote": "w2" }, "b": { "figure": "descartes", "quote": "d2" }, "note": "知行合一与清楚分明——一个把真落实为行，一个把真规定为明。" },
+    { "id": "r13", "question": "change", "a": { "figure": "zhuangzi", "quote": "z3" }, "b": { "figure": "heraclitus", "quote": "h-missing" }, "note": "「安时而处顺」对「按尺度燃烧」——（对方引文散佚，待补）" }
+  ]
+}

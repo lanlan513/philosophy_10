@@ -1,0 +1,15 @@
+{
+  "traditions": [
+    { "id": "ru", "name": "儒家", "region": "east", "note": "以「仁」与「礼」重建人间秩序，把修养当作一生的练习。" },
+    { "id": "dao", "name": "道家", "region": "east", "note": "以「道」观物，在变化与无为中寻找不被捆缚的活法。" },
+    { "id": "madhyamaka", "name": "中观学派", "region": "east", "note": "以「空」拆解一切执著，包括「空」本身。" },
+    { "id": "zen", "name": "禅宗", "region": "east", "note": "不立文字，直指人心——把解脱拉回当下此念。" },
+    { "id": "xinxue", "name": "心学", "region": "east", "note": "心即理，致良知——天理不在外物，就在此心。" },
+    { "id": "athens", "name": "古希腊 · 雅典", "region": "west", "note": "在广场与法庭上，把哲学变成对灵魂的照料。" },
+    { "id": "ephesus", "name": "古希腊 · 爱菲斯", "region": "west", "note": "在流变中寻找尺度，晦涩而锋利的开端。" },
+    { "id": "elea", "name": "爱利亚学派", "region": "west", "note": "以逻辑为存在划界，西方形而上学的第一道门槛。" },
+    { "id": "german", "name": "德国古典哲学", "region": "west", "note": "为理性划界，也为自由与信仰留出位置。" },
+    { "id": "exist", "name": "存在主义", "region": "west", "note": "没有剧本的自由，以及随之而来的眩晕与责任。" },
+    { "id": "rational", "name": "近代唯理论", "region": "west", "note": "从「我思」出发，用方法重建确定性的地基。" }
+  ]
+}
