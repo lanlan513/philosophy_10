@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="760" viewBox="0 0 600 760" role="img" aria-label="WITTGENSTEIN 石像（抽象档案图，非容貌）">
+  <defs>
+    <linearGradient id="stone-wittgenstein" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e9e7e2"/><stop offset="0.55" stop-color="#d9d6cf"/><stop offset="1" stop-color="#c9c6bf"/>
+    </linearGradient>
+    <linearGradient id="bust-wittgenstein" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b8b5ad"/><stop offset="1" stop-color="#8f8c85"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="760" fill="url(#stone-wittgenstein)"/>
+  <path d="M 373.4 -20 L 353.2,68.9 L 331.9,157.8 L 312.1,246.7 L 291.2,335.6 L 310.6,424.4 L 315.4,513.3 L 322.1,602.2 L 320.2,691.1 L 349.4,780.0" fill="none" stroke="rgb(163,163,167)" stroke-width="1.7" opacity="0.18"/>
+  <path d="M 483.1 -20 L 475.2,68.9 L 492.2,157.8 L 499.3,246.7 L 521.3,335.6 L 539.0,424.4 L 550.3,513.3 L 572.6,602.2 L 610.3,691.1 L 592.8,780.0" fill="none" stroke="rgb(179,179,183)" stroke-width="1.9" opacity="0.10"/>
+  <path d="M 287.0 -20 L 300.4,68.9 L 329.0,157.8 L 341.4,246.7 L 364.6,335.6 L 387.8,424.4 L 393.8,513.3 L 399.4,602.2 L 399.9,691.1 L 396.2,780.0" fill="none" stroke="rgb(166,166,170)" stroke-width="0.8" opacity="0.17"/>
+  <path d="M 435.6 -20 L 427.0,68.9 L 459.7,157.8 L 458.2,246.7 L 437.8,335.6 L 446.8,424.4 L 450.9,513.3 L 479.1,602.2 L 500.1,691.1 L 533.9,780.0" fill="none" stroke="rgb(169,169,173)" stroke-width="2.4" opacity="0.21"/>
+  <path d="M 393.4 -20 L 381.4,68.9 L 354.9,157.8 L 314.7,246.7 L 321.5,335.6 L 316.3,424.4 L 302.8,513.3 L 292.0,602.2 L 306.1,691.1 L 317.3,780.0" fill="none" stroke="rgb(177,177,181)" stroke-width="2.2" opacity="0.16"/>
+  <path d="M 140.4 -20 L 121.7,68.9 L 97.5,157.8 L 61.7,246.7 L 56.8,335.6 L 68.0,424.4 L 59.3,513.3 L 27.8,602.2 L -10.4,691.1 L -29.4,780.0" fill="none" stroke="rgb(135,135,139)" stroke-width="2.4" opacity="0.16"/>
+  <path d="M 120.2 -20 L 80.9,68.9 L 77.2,157.8 L 95.9,246.7 L 76.6,335.6 L 87.0,424.4 L 64.4,513.3 L 50.1,602.2 L 58.7,691.1 L 51.6,780.0" fill="none" stroke="rgb(158,158,162)" stroke-width="1.4" opacity="0.15"/>
+  <path d="M 528.7 -20 L 533.8,68.9 L 526.8,157.8 L 519.0,246.7 L 523.8,335.6 L 529.3,424.4 L 530.1,513.3 L 560.7,602.2 L 571.4,691.1 L 561.3,780.0" fill="none" stroke="rgb(166,166,170)" stroke-width="1.0" opacity="0.27"/>
+  <path d="M 95.0 -20 L 112.4,68.9 L 102.9,157.8 L 122.4,246.7 L 116.9,335.6 L 94.0,424.4 L 110.8,513.3 L 131.3,602.2 L 125.1,691.1 L 128.1,780.0" fill="none" stroke="rgb(136,136,140)" stroke-width="2.3" opacity="0.28"/>
+  <g opacity="0.9">
+    <path d="M300 214 a86 86 0 1 0 0.1 0 Z" fill="url(#bust-wittgenstein)"/>
+    <path d="M150 620 c0 -118 67 -178 150 -178 c83 0 150 60 150 178 Z" fill="url(#bust-wittgenstein)"/>
+    <path d="M300 214 a86 86 0 1 0 0.1 0" fill="none" stroke="#6f6d68" stroke-width="2" opacity="0.6"/>
+    <path d="M150 620 c0 -118 67 -178 150 -178 c83 0 150 60 150 178" fill="none" stroke="#6f6d68" stroke-width="2" opacity="0.6"/>
+  </g>
+  <text x="300" y="392" text-anchor="middle" font-family="Georgia,serif" font-size="120" fill="#f4f2ec" opacity="0.55">W</text>
+  <rect x="120" y="668" width="360" height="2" fill="#7d7a74" opacity="0.7"/>
+  <text x="300" y="712" text-anchor="middle" font-family="Georgia,serif" font-size="15" letter-spacing="4" fill="#5d5a54">石 像 · MARBLE ARCHIVE</text>
+</svg>

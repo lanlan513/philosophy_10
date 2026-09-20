@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="760" viewBox="0 0 600 760" role="img" aria-label="KANT 石像（抽象档案图，非容貌）">
+  <defs>
+    <linearGradient id="stone-kant" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e9e7e2"/><stop offset="0.55" stop-color="#d9d6cf"/><stop offset="1" stop-color="#c9c6bf"/>
+    </linearGradient>
+    <linearGradient id="bust-kant" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b8b5ad"/><stop offset="1" stop-color="#8f8c85"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="760" fill="url(#stone-kant)"/>
+  <path d="M 571.0 -20 L 541.4,68.9 L 513.6,157.8 L 505.4,246.7 L 474.8,335.6 L 445.7,424.4 L 414.9,513.3 L 399.2,602.2 L 389.6,691.1 L 389.9,780.0" fill="none" stroke="rgb(167,167,171)" stroke-width="2.3" opacity="0.30"/>
+  <path d="M 272.8 -20 L 273.9,68.9 L 288.7,157.8 L 304.6,246.7 L 298.5,335.6 L 306.2,424.4 L 330.8,513.3 L 341.3,602.2 L 335.9,691.1 L 345.6,780.0" fill="none" stroke="rgb(130,130,134)" stroke-width="1.4" opacity="0.20"/>
+  <path d="M 124.3 -20 L 106.0,68.9 L 128.3,157.8 L 106.7,246.7 L 104.0,335.6 L 104.5,424.4 L 125.0,513.3 L 102.2,602.2 L 119.1,691.1 L 123.6,780.0" fill="none" stroke="rgb(169,169,173)" stroke-width="2.0" opacity="0.21"/>
+  <path d="M 425.0 -20 L 396.4,68.9 L 380.3,157.8 L 362.8,246.7 L 367.4,335.6 L 386.5,424.4 L 390.8,513.3 L 380.7,602.2 L 394.6,691.1 L 374.9,780.0" fill="none" stroke="rgb(132,132,136)" stroke-width="0.8" opacity="0.11"/>
+  <path d="M 90.4 -20 L 106.8,68.9 L 106.5,157.8 L 105.7,246.7 L 127.2,335.6 L 105.1,424.4 L 86.2,513.3 L 99.9,602.2 L 107.3,691.1 L 141.6,780.0" fill="none" stroke="rgb(155,155,159)" stroke-width="1.5" opacity="0.28"/>
+  <path d="M 26.3 -20 L 24.0,68.9 L 2.5,157.8 L 5.6,246.7 L 11.5,335.6 L 6.3,424.4 L 5.1,513.3 L 19.6,602.2 L 10.0,691.1 L 24.4,780.0" fill="none" stroke="rgb(178,178,182)" stroke-width="2.1" opacity="0.18"/>
+  <path d="M 237.8 -20 L 218.1,68.9 L 228.3,157.8 L 240.6,246.7 L 254.5,335.6 L 259.3,424.4 L 264.0,513.3 L 254.6,602.2 L 272.3,691.1 L 308.1,780.0" fill="none" stroke="rgb(160,160,164)" stroke-width="2.1" opacity="0.17"/>
+  <path d="M 194.7 -20 L 174.3,68.9 L 174.8,157.8 L 142.3,246.7 L 159.9,335.6 L 151.5,424.4 L 174.6,513.3 L 157.8,602.2 L 142.5,691.1 L 163.8,780.0" fill="none" stroke="rgb(129,129,133)" stroke-width="1.0" opacity="0.21"/>
+  <path d="M 279.0 -20 L 262.2,68.9 L 241.2,157.8 L 223.1,246.7 L 240.6,335.6 L 232.9,424.4 L 240.7,513.3 L 240.0,602.2 L 230.7,691.1 L 219.2,780.0" fill="none" stroke="rgb(152,152,156)" stroke-width="2.3" opacity="0.12"/>
+  <g opacity="0.9">
+    <path d="M300 214 a86 86 0 1 0 0.1 0 Z" fill="url(#bust-kant)"/>
+    <path d="M150 620 c0 -118 67 -178 150 -178 c83 0 150 60 150 178 Z" fill="url(#bust-kant)"/>
+    <path d="M300 214 a86 86 0 1 0 0.1 0" fill="none" stroke="#6f6d68" stroke-width="2" opacity="0.6"/>
+    <path d="M150 620 c0 -118 67 -178 150 -178 c83 0 150 60 150 178" fill="none" stroke="#6f6d68" stroke-width="2" opacity="0.6"/>
+  </g>
+  <text x="300" y="392" text-anchor="middle" font-family="Georgia,serif" font-size="120" fill="#f4f2ec" opacity="0.55">K</text>
+  <rect x="120" y="668" width="360" height="2" fill="#7d7a74" opacity="0.7"/>
+  <text x="300" y="712" text-anchor="middle" font-family="Georgia,serif" font-size="15" letter-spacing="4" fill="#5d5a54">石 像 · MARBLE ARCHIVE</text>
+</svg>

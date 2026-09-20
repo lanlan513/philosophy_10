@@ -1,20 +1,18 @@
 {
-  "name": "the-philosophy-archive",
+  "name": "ink-and-marble",
+  "version": "1.0.0",
   "private": true,
-  "version": "0.1.0",
   "type": "module",
+  "description": "墨与大理石 —— 一条按问题展开的中西思想人物长廊",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "gen:portraits": "node scripts/generate-portraits.mjs",
+    "start": "node server/index.mjs",
+    "dev": "node --watch server/index.mjs",
+    "test": "node test/api.test.mjs && node test/virtual-list.test.mjs"
   },
-  "dependencies": {
-    "@vitejs/plugin-react": "latest",
-    "vite": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "react-router-dom": "latest",
-    "lucide-react": "latest"
+  "engines": {
+    "node": ">=18"
   },
+  "dependencies": {},
   "devDependencies": {}
 }

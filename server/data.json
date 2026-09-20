@@ -1,0 +1,616 @@
+{
+  "meta": {
+    "title": "墨与大理石",
+    "subtitle": "INK & MARBLE",
+    "note": "关联不靠容貌或名言的表面相似，而靠共同的问题与原文。"
+  },
+  "traditions": [
+    { "id": "ru", "name": "先秦儒家", "hemisphere": "east", "period": "公元前 6–前 3 世纪", "summary": "以礼乐与仁为中心，追问人如何在人伦中成人。" },
+    { "id": "mo", "name": "墨家", "hemisphere": "east", "period": "公元前 5–前 3 世纪", "summary": "以兼爱、非攻、尚贤立教，是先秦少数以功利尺度衡量道德的学派。" },
+    { "id": "dao", "name": "道家", "hemisphere": "east", "period": "公元前 4 世纪起", "summary": "以道为万物之母与流变之枢，警惕名言对整全体验的切割。" },
+    { "id": "fajia", "name": "法家", "hemisphere": "east", "period": "公元前 3 世纪", "summary": "不信性善可致治，主张以法、术、势安顿逐利的人群。" },
+    { "id": "foxue", "name": "中观与禅宗", "hemisphere": "east", "period": "公元 2–8 世纪", "summary": "龙树以缘起性空拆解形而上学，禅宗以此转入当下的修行实践。" },
+    { "id": "lixue", "name": "宋明理学", "hemisphere": "east", "period": "公元 12–16 世纪", "summary": "在理与心的框架里重释儒家，使道德秩序与宇宙秩序互为注解。" },
+    { "id": "presocratic", "name": "前苏格拉底", "hemisphere": "west", "period": "公元前 6–前 5 世纪", "summary": "以逻各斯与自然追问万物的本原，哲学在城邦之外开始。" },
+    { "id": "athens", "name": "古希腊三哲", "hemisphere": "west", "period": "公元前 5–前 4 世纪", "summary": "苏格拉底以诘问助产真理，把哲学从天上带回城邦与人世。" },
+    { "id": "util", "name": "英国功利主义", "hemisphere": "west", "period": "18–19 世纪", "summary": "以最大多数人的最大幸福为道德与立法的尺度。" },
+    { "id": "rousseauism", "name": "卢梭传统", "hemisphere": "west", "period": "18 世纪", "summary": "追问文明与自然的张力，以自爱心与怜悯心解释道德的自然根基。" },
+    { "id": "analytic", "name": "语言分析哲学", "hemisphere": "west", "period": "20 世纪", "summary": "把哲学问题当作语言问题，在可说与不可说之间划线。" },
+    { "id": "contract", "name": "社会契约论", "hemisphere": "west", "period": "17 世纪", "summary": "从自利个体的理性约定推导出主权与服从的根据。" },
+    { "id": "german", "name": "德国古典哲学", "hemisphere": "west", "period": "18–19 世纪", "summary": "以批判划清理性的合法边界，又试图在界限内安顿自由。" },
+    { "id": "exist", "name": "存在主义", "hemisphere": "west", "period": "20 世纪", "summary": "存在先于本质：人被抛入自由，必须自我造就并为之负责。" },
+    { "id": "scholastic", "name": "经院哲学", "hemisphere": "west", "period": "13 世纪", "summary": "在信仰与亚里士多德理性之间搭建体系，以自然理性论证神法。" },
+    { "id": "pragmatism", "name": "实用主义", "hemisphere": "west", "period": "19–20 世纪", "summary": "观念的意义在于其后果，知行在探究过程中不可分割。" }
+  ],
+  "questions": [
+    {
+      "id": "q-virtue-teachable",
+      "label": "共同问题：德性可以被教吗？",
+      "east": "confucius",
+      "west": "socrates",
+      "anchor": "孔子“仁”的教化，与苏格拉底对“德性即知识”的反复诘问，都把道德的可传递性当作核心难题，却走向了两条路。",
+      "convergence": "《论语·述而》记孔子自道“默而识之，学而不厌，诲人不倦”，又在《述而》另一处说“不愤不启，不悱不发”——教育不是灌输答案，而是在学生几乎触及时点拨。《美诺篇》中苏格拉底同样宣称自己“一无所知”，只通过追问让童奴自己“回忆”出几何真理（《美诺》82b–85b）。两人都不相信德性可以像手艺一样被直接交付，而把它交给一种对话的、时机性的实践。",
+      "divergence": "但苏格拉底的诘问终结于困境（aporia）：《美诺篇》最终没有真正回答“德性可教吗”，只得到一个暧昧的假说。孔子则不怀疑“学”本身——《论语·学而》开篇即是“学而时习之，不亦说乎”，学与习落实在礼乐的身体训练里。一个以追问拆除既定意见，一个以习礼养成人伦品格；助产术的终点是自知无知，为学之途的终点则是“从心所欲不逾矩”。"
+    },
+    {
+      "id": "q-utility",
+      "label": "共同问题：道德能用利害来计算吗？",
+      "east": "mozi",
+      "west": "mill",
+      "anchor": "墨翟以“兴天下之利”立论，密尔以“最大幸福原则”为道德的最终裁决——两处分隔两千三百年，却都拒绝把道德建立在习俗或直觉之上。",
+      "convergence": "《墨子·兼爱中》把天下之祸归于“别”，主张“兼以易别”：看待他人之身如己身，看待他人之家如己家，其最终理由是“天下之大利”。《墨子·非命上》又提出“言必有三表”，以历史经验、耳目实情与施行之效检验学说。密尔在《功利主义》第二章同样拒绝把道德感当作最终依据，而以“行为之对错，与它促进幸福的倾向成比例”作为第一原则（密尔《功利主义》第二章）。两者都要求为道德给出可公开检验的后果尺度。",
+      "divergence": "墨子之“利”最终服从于“天志”——《天志上》中，兼爱的根据是天“兼而爱之，兼而利之”，尺度带有准宗教的规范性；密尔的幸福原则则彻底世俗化，并且他在《论自由》中为个体性保留了不可被多数幸福吞没的空间。更要害的是，墨家之兼爱要求“爱无差等”，儒家已斥其“无父”；密尔承认正义感有独立的心理强度，却坚持它仍须接受效用原则的最终裁决。计算的对象也不同：一个计算的是邦国征伐、葬丧礼乐之耗，一个计算的是现代社会中自由与个性的长远后果。"
+    },
+    {
+      "id": "q-nature-good",
+      "label": "共同问题：善是人的自然，还是社会的产物？",
+      "east": "mencius",
+      "west": "rousseau",
+      "anchor": "孟子以“四端”论证性善，卢梭以“自爱心”与“怜悯心”论证自然人本善——两者都面对同一个诘问：若善本于自然，恶从何来？",
+      "convergence": "《孟子·公孙丑上》说“今人乍见孺子将入于井，皆有怵惕恻隐之心”，并强调此心“非所以内交于孺子之父母也，非所以要誉于乡党朋友也”——道德反应先于一切利害计算。卢梭在《论人类不平等的起源和基础》中同样把怜悯心称为“自然的善”，它“先于一切反思”，使看到同类受苦的人产生不快（卢梭《论不平等》第一部分）。两人都把善安置在反思之前、计算之外的自然反应里。",
+      "divergence": "孟子的端绪必须被“扩充”：《公孙丑上》紧接着说“苟能充之，足以保四海；苟不充之，不足以事父母”，善是需要在人伦与教化中长成的种子。卢梭却把恶归于社会化本身——《论科学与艺术》问“科学与艺术的复兴是否有助于敦风化俗”，他的回答近乎否定：自尊（amour-propre）、比较与不平等使人远离自然的怜悯。一个认为人伦是善的展开场域，一个认为人伦的异化是善的败坏之源；扩充与复归，方向正好相反。"
+    },
+    {
+      "id": "q-flux",
+      "label": "共同问题：流变中有没有恒常？",
+      "east": "zhuangzi",
+      "west": "heraclitus",
+      "anchor": "“方生方死”与“不能两次踏入同一条河流”常被并置为流变哲学，但原文里两者各自安放了一个不动的枢轴。",
+      "convergence": "《庄子·齐物论》说“彼是方生之说也……彼是莫得其偶，谓之道枢”：彼与此、可与不可相对而生，是非之争永无终结，只有抓住“道枢”才能在环中应变。赫拉克利特残篇 B60 说“上升与下降是同一条路”，B88 说“生与死、醒与睡、少与老……都在相互转化”，而这一切流变由逻各斯（logos）支配，残篇 B1 称“一切都依据这个逻各斯而生成”。两人都拒绝把对立的任一端当作终极。",
+      "divergence": "赫拉克利特的逻各斯是宇宙自身的理性法则，灵魂可以认识它——残篇 B113 称“思想是人人共有的”，流变背后有可被言说的尺度。庄子的“道枢”却拒绝被命题固定：《齐物论》先说“道未始有封，言未始有常”，再以“天地一指也，万物一马也”抹平名言之争，其落点是“寓诸无竟”的实践自由。逻各斯邀请人去认识那普遍尺度，道枢则邀请人放下测量本身。"
+    },
+    {
+      "id": "q-ineffable",
+      "label": "共同问题：最高的东西，为什么说不出来？",
+      "east": "laozi",
+      "west": "wittgenstein",
+      "anchor": "“道可道，非常道”与“对于不可说的，必须保持沉默”——两处沉默的质地完全不同，却都把语言的极限当作思想的入口。",
+      "convergence": "《老子》第一章劈头便是“道可道，非常道；名可名，非常名”，第二十五章说“有物混成，先天地生……吾不知其名，强字之曰道”——终极不是更高一档的对象，所以任何命名都是“强字之”。《逻辑哲学论》5.6 说“我的语言的界限意味着我的世界的界限”，末尾 7：“对于不可说的东西，必须保持沉默。”两人都承认：使世界整体得以显现的东西，不能作为世界之内的事实被说出。",
+      "divergence": "沉默之后的方向相反。维特根斯坦在 6.52 说，当问题被消除之后，他才看到了“人生问题的解决”——不可说者作为意义的背景被“显示”，而哲学的任务是把能说的命题清楚地说完（4.112）。老子却把名言的局限当作向道复归的起点：第四十八章“为学日益，为道日损”，第四十一章“明道若昧”，沉默之后是损之又损、与玄同的体证。一个在沉默处终止理论以保全逻辑世界，一个在不可说处开始一种非对象化的生活。"
+    },
+    {
+      "id": "q-order",
+      "label": "共同问题：承认人各自利，秩序如何可能？",
+      "east": "hanfei",
+      "west": "hobbes",
+      "anchor": "韩非与霍布斯都不信任道德教化的治世效力，都从利益与恐惧出发解释服从——但主权者的正当性来源截然不同。",
+      "convergence": "《韩非子·五蠹》说“今欲以先王之政，治当世之民，皆守株之类也”，又言“是以古之易财，非仁也，财多也；今之争夺，非鄙也，财寡也”——道德随资源与形势而变，不能作为秩序的根基。霍布斯在《利维坦》第十三章描述自然状态：没有共同权力的地方，“人的生活孤独、贫困、卑污、残忍而短寿”，人人相互为战。两人都把秩序问题从“人应如何变好”改写为“在逐利的人群中，什么样的制度结构能稳定运行”。",
+      "divergence": "霍布斯的主权出自契约：第十四、十五章中，自然人出于对暴死的恐惧相互立约，让渡权利以换取和平，服从的根据是被代表者的授权。韩非的“势”却无需被统治者同意：《难势》主张“抱法处势则治”，《二柄》强调君主要独握刑赏二柄，统治的根据是结构位置而非人民让渡。利维坦在逻辑上可以追问契约的条件，法术之士则连追问的公共空间都不准备留下——同样冷峻，一个仍带着个体主义的出发点，一个彻底是国家理性的。"
+    },
+    {
+      "id": "q-reason-limit",
+      "label": "共同问题：理性能不能认识“世界自身”？",
+      "east": "nagarjuna",
+      "west": "kant",
+      "anchor": "龙树的“空”与康德的“物自身”都在理性抵达之处划出界限，也都被后人误读为怀疑论——但划界之后各自要保住的东西不同。",
+      "convergence": "龙树《中论·观因缘品》以“八不”开篇：“不生亦不灭，不常亦不断，不一亦不异，不来亦不出”，凡以自性（svabhāva）设想的存在者，在因缘考察下都瓦解。《观法品》称“诸法实相者，心行言语断，无生亦无灭，寂灭如涅槃”。康德在《纯粹理性批判》先验辩证论中同样证明：灵魂、世界整体、上帝不是认识对象，理性一旦超出现象界去把握自在之物，就必然陷入二律背反。两人都以矛盾论证（龙树的四句分别与康德的二律背反）标出同一处边界。",
+      "divergence": "界限的用途相反。康德说他“不得不悬置知识，以便给信仰腾出地盘”（《批判》第二版序言），界限之内保住普遍必然的科学，界限之外安顿自由、灵魂与上帝的公设——批判哲学是建设性的体系。龙树的空却无物可立：《中论·观四谛品》“众因缘生法，我说即是空……以有空义故，一切法得成”，空不是另一个本原，而是对自性执的破除，其目的是熄灭烦恼、解脱，而非为道德形而上学奠基。一个划界以安顿理性与自由，一个破执以解除对任何安顿处的黏着。"
+    },
+    {
+      "id": "q-authenticity",
+      "label": "共同问题：没有先验的本质，人应当怎样活？",
+      "east": "huineng",
+      "west": "sartre",
+      "anchor": "慧能“本来无一物”与萨特“存在先于本质”都拒绝给人一个现成的本质，但自由之后，一个要承担，一个要放下。",
+      "convergence": "《坛经·行由品》记慧能得法偈：“菩提本无树，明镜亦非台，本来无一物，何处惹尘埃”——没有一个作为实体的心需要拂拭，觉悟不是获得某种本质。萨特在《存在主义是一种人道主义》（1946 年演讲）中宣布“存在先于本质”：人首先存在、遭遇世界，然后才通过选择把自己造成什么，“人，除了自我造就之外，什么也不是”。两者都否认人有可被发现的固定本性。",
+      "divergence": "萨特的无本质是自由的重负：“人是被判处自由的”，每一选择都在立法，焦虑、责任无从推卸；即使自欺（mauvaise foi）也是自由的人对自由的逃避。慧能的“无物”却通向“何期自性本自清净……能生万法”（《坛经·行由品》），迷与悟只在一念之间：“前念迷即凡夫，后念悟即佛”（《般若品》），修行是“无念为宗”——于念而无住，而非不断选择以自我造就。一个要求人成为自己这桩工程的作者，一个要连“作者”感也勘破。"
+    },
+    {
+      "id": "q-principle",
+      "label": "共同问题：宇宙的秩序与人间的至善，是同一个理吗？",
+      "east": "zhuxi",
+      "west": "aquinas",
+      "anchor": "朱熹的“理一分殊”与阿奎那的“永恒法—自然法”都是层级森严的综合体系，都试图让人间道德分有宇宙秩序，却在顶端安放了不同的东西。",
+      "convergence": "《朱子语类》卷一记朱熹论理气：“未有天地之先，毕竟也只是理”，理一而分殊——月映万川，每一物各禀一理。阿奎那在《神学大全》I-II, q.91 中同样给出法律的层级：永恒法是神智慧统治万物的范型，自然法是理性受造物对永恒法的分有，人定则须由自然法推出。两者都拒绝在“是”与“应当”之间留下鸿沟：物之所以然与知之所以然同源，格物与格主皆上通于一。",
+      "divergence": "理的顶端无人格：朱熹的理“无情意，无计度，无造作”（《语类》卷一），它挂空于气之上却不发命令，人通过今日格一件、明日格一件的积累“一旦豁然贯通”（《大学章句》补格物传）。阿奎那的顶端是立法者：永恒法不外于神的智慧与意志，自然法的首要诫命“行善避恶”最终指向至善的上帝，并以神启法补足理性的不足。一个是无主体的形而上学秩序，一个是神圣立法者颁布的目的论；穷理的终点是贯通的清明，神学的终点是受造者对造物主的皈向。"
+    },
+    {
+      "id": "q-unity-knowing-doing",
+      "label": "共同问题：知而不行，算不算真知？",
+      "east": "wang-yangming",
+      "west": "dewey",
+      "anchor": "阳明“知行合一”与杜威“从做中学”都反对把知识当成先于行动的静观——但一个指向良知，一个指向开放的探究。",
+      "convergence": "《传习录》卷上徐爱录：“知是行之始，行是知之成。圣贤教人知行，正是要人复那本体，不是着你只恁的便罢”，又有“如好好色，如恶恶臭”之喻：见好色属知，好之属行，见时已自好了。杜威在《民主主义与教育》第十一章同样批评“旁观者式的知识论”，主张经验首先是“做”（doing），“教育并不是为未来生活做准备，教育就是生活本身”——知在行动的后果中被检验和修正。两者都把知从镜式静观中解放出来。",
+      "divergence": "阳明的合一是道德形而上学的命题：知行本体原是一个，不行只是“未知得真”，致良知的功夫是把本具的天理在事上磨练，终点是圣人。杜威的探究逻辑没有先在的道德罗盘：《民主主义与教育》第十一章把方法界定为“观察环境、整理条件、形成观念并在行动中检验”的反思过程，真理是暂时的、可错的，目的内在于不断生长的民主生活。一个向内恢复本然之知，一个向外试验可能之知；事上磨练的事有其当然之则，探究之途中的“则”本身也接受探究。"
+    }
+  ],
+  "figures": [
+    {
+      "id": "confucius",
+      "name": "孔子",
+      "latin": "Confucius",
+      "era": "公元前 551–前 479",
+      "hemisphere": "east",
+      "traditionId": "ru",
+      "order": 1,
+      "portrait": "/portraits/confucius.svg",
+      "monogram": "孔",
+      "guide": "他说自己“述而不作”，却把追问从天命鬼神移到了学与习的人伦现场。读他与苏格拉底时，盯住一个问题：德性既然不像算术那样可直接教授，它到底如何被传递？",
+      "bio": "鲁国人。以诗书礼乐教，弟子三千；政治上辗转列国而不得志，身后由弟子及再传弟子辑成《论语》。",
+      "keywords": ["kw-confucius-ren", "kw-confucius-ritual", "kw-confucius-learning"],
+      "quotes": [
+        { "text": "默而识之，学而不厌，诲人不倦，何有于我哉？", "source": "《论语·述而》" },
+        { "text": "不愤不启，不悱不发。举一隅不以三隅反，则不复也。", "source": "《论语·述而》" }
+      ]
+    },
+    {
+      "id": "socrates",
+      "name": "苏格拉底",
+      "latin": "Socrates",
+      "era": "公元前 470–前 399",
+      "hemisphere": "west",
+      "traditionId": "athens",
+      "order": 2,
+      "portrait": "/portraits/socrates.svg",
+      "monogram": "Σ",
+      "guide": "他没有写下任何文字，所有对话都由柏拉图转述。注意他与孔子都拒绝“直接交付答案”，但他的追问往往终结于无解的困境（aporia），而孔子的学有明确的礼乐落点。",
+      "bio": "雅典人。以广场诘问为业，被雅典法庭以不敬神与败坏青年罪判处死刑，饮鸩而亡。",
+      "keywords": ["kw-socrates-elenchus", "kw-socrates-virtue-knowledge", "kw-socrates-aporia"],
+      "quotes": [
+        { "text": "我（苏格拉底）……因为知道自己一无所知，所以要去侍奉神的谶语，去考察别人是否真的知道什么。", "source": "柏拉图《申辩篇》21b–23b" },
+        { "text": "所以灵魂不死不灭，我们的灵魂在哈德斯那里确实存在。——童奴在追问下自行“回忆”出几何，证明学习即是回忆。", "source": "柏拉图《美诺篇》82b–86b" }
+      ]
+    },
+    {
+      "id": "mozi",
+      "name": "墨翟",
+      "latin": "Mozi",
+      "era": "约公元前 470–前 391",
+      "hemisphere": "east",
+      "traditionId": "mo",
+      "order": 3,
+      "portrait": null,
+      "monogram": "墨",
+      "guide": "墨者是先秦少数拒绝以习俗和亲情为道德根据的学派：兼爱要有理由，理由是“天下之利”。档案中他的画像已佚——此处故意留白，正可检验文本是否先于图像。",
+      "bio": "宋大夫（一说鲁人）。墨家学派创始人，主张兼爱、非攻、尚贤、节用，弟子组织严密，世称墨者。",
+      "keywords": ["kw-mozi-jianai", "kw-mozi-sanbiao", "kw-mozi-fejie"],
+      "quotes": [
+        { "text": "兼以易别。……视人身若其身，谁贼？视人家若其家，谁乱？", "source": "《墨子·兼爱中》" },
+        { "text": "言必立仪。……有本之者，有原之者，有用之者。", "source": "《墨子·非命上》" }
+      ]
+    },
+    {
+      "id": "mill",
+      "name": "约翰·斯图尔特·密尔",
+      "latin": "John Stuart Mill",
+      "era": "公元 1806–1873",
+      "hemisphere": "west",
+      "traditionId": "util",
+      "order": 4,
+      "portrait": "/portraits/mill.svg",
+      "monogram": "M",
+      "guide": "功利主义常被漫画成“算计的道德”，但密尔的检验对象是制度与自由的长远后果，且他坚持快乐有质的高下之分。对照墨翟：利害尺度之上，是否还悬着一个天志？",
+      "bio": "英国哲学家、经济学家。东印度公司职员，后任议员；《论自由》《功利主义》《妇女的屈从地位》作者。",
+      "keywords": ["kw-mill-utility", "kw-mill-liberty", "kw-mill-quality"],
+      "quotes": [
+        { "text": "行为之是，与它增进幸福的倾向成比例；行为之非，与它产生不幸的倾向成比例。", "source": "密尔《功利主义》第二章" },
+        { "text": "做一个不满足的人胜过做一只满足的猪；做一个不满足的苏格拉底胜过做一个满足的傻瓜。", "source": "密尔《功利主义》第二章" }
+      ]
+    },
+    {
+      "id": "mencius",
+      "name": "孟子",
+      "latin": "Mencius",
+      "era": "约公元前 372–前 289",
+      "hemisphere": "east",
+      "traditionId": "ru",
+      "order": 5,
+      "portrait": "/portraits/mencius.svg",
+      "monogram": "孟",
+      "guide": "“孺子将入于井”是一个思想实验，不是道德呼吁：他要证明恻隐在先于利害的瞬间已经发动。与卢梭同读后追问：这粒善端需要的是扩充，还是保护它不被社会污染？",
+      "bio": "邹人。受业子思之门人，游说齐梁之君；晚年与万章之徒序《诗》《书》，作《孟子》七篇。",
+      "keywords": ["kw-mencius-siduan", "kw-mencius-kuochong", "kw-mencius-humanity-righteousness"],
+      "quotes": [
+        { "text": "今人乍见孺子将入于井，皆有怵惕恻隐之心；非所以内交于孺子之父母也，非所以要誉于乡党朋友也。", "source": "《孟子·公孙丑上》" },
+        { "text": "苟能充之，足以保四海；苟不充之，不足以事父母。", "source": "《孟子·公孙丑上》" }
+      ]
+    },
+    {
+      "id": "rousseau",
+      "name": "让-雅克·卢梭",
+      "latin": "Jean-Jacques Rousseau",
+      "era": "公元 1712–1778",
+      "hemisphere": "west",
+      "traditionId": "rousseauism",
+      "order": 6,
+      "portrait": "/portraits/rousseau.svg",
+      "monogram": "R",
+      "guide": "第戎学院的征文题目让他“在大树下”看见一个问题：文明是在治愈人，还是在制造不平等？他的怜悯心与孟子的恻隐同样先于反思，但他把恶记在了社会化的账上。",
+      "bio": "日内瓦人。启蒙运动中的反启蒙者，《论科学与艺术》《论人类不平等的起源和基础》《社会契约论》《爱弥儿》作者。",
+      "keywords": ["kw-rousseau-pity", "kw-rousseau-amourpropre", "kw-rousseau-natural"],
+      "quotes": [
+        { "text": "因此我们可以肯定，怜悯心是一种自然的情感，它使每一个人都不会去损害他人，甚至在自己的生存受到威胁时才会有例外。", "source": "卢梭《论人类不平等的起源和基础》第一部分" },
+        { "text": "出自造物主之手的东西，都是好的，而一到了人的手里，就全变坏了。", "source": "卢梭《爱弥儿》第一章" }
+      ]
+    },
+    {
+      "id": "zhuangzi",
+      "name": "庄周",
+      "latin": "Zhuangzi",
+      "era": "约公元前 369–前 286",
+      "hemisphere": "east",
+      "traditionId": "dao",
+      "order": 7,
+      "portrait": "/portraits/zhuangzi.svg",
+      "monogram": "周",
+      "guide": "蝴蝶梦醒后那句“此之谓物化”常被读成相对主义，但它更接近一种对转化的肯定。与赫拉克利特并置时，注意两人都在流变中安放了不动的枢轴——道枢与逻各斯并不是同一种东西。",
+      "bio": "宋人。曾为漆园吏，拒楚相之聘；《庄子》内篇大体可信为其作，外杂篇为后学所续。",
+      "keywords": ["kw-zhuangzi-daoshu", "kw-zhuangzi-wuhua", "kw-zhuangzi-xiaoyao"],
+      "quotes": [
+        { "text": "彼是莫得其偶，谓之道枢。枢始得其环中，以应无穷。", "source": "《庄子·齐物论》" },
+        { "text": "昔者庄周梦为胡蝶，栩栩然胡蝶也。……不知周之梦为胡蝶与？胡蝶之梦为周与？……此之谓物化。", "source": "《庄子·齐物论》" }
+      ]
+    },
+    {
+      "id": "heraclitus",
+      "name": "赫拉克利特",
+      "latin": "Heraclitus",
+      "era": "约公元前 540–前 480",
+      "hemisphere": "west",
+      "traditionId": "presocratic",
+      "order": 8,
+      "portrait": "/portraits/heraclitus.svg",
+      "monogram": "H",
+      "guide": "现存只有一百余条残篇。“不能两次踏入同一条河流”是后世的转述，可靠残篇（B12）说的是踏入者不断遇到“新的水流”。他的流变始终由逻各斯统摄——对照道枢：尺度与齐物，何者更“恒常”？",
+      "bio": "以弗所人。王族出身而让位隐居，著作已佚，仅存残篇；因文风晦涩被称为“晦涩者”。",
+      "keywords": ["kw-heraclitus-logos", "kw-heraclitus-flux", "kw-heraclitus-opposites"],
+      "quotes": [
+        { "text": "这个逻各斯虽然永恒存在着，但是人们在听到它以前，以及在初次听到它的时候，都不能理解它。", "source": "赫拉克利特残篇 B1" },
+        { "text": "踏上同一条河流的人，不断遇到新的水流；灵魂也是这样，从湿气中蒸发出来。", "source": "赫拉克利特残篇 B12" },
+        { "text": "向上的路和向下的路是同一条路。", "source": "赫拉克利特残篇 B60" }
+      ]
+    },
+    {
+      "id": "laozi",
+      "name": "老子",
+      "latin": "Laozi",
+      "era": "约公元前 6 世纪（传说）／今本定型于公元前 4–前 2 世纪",
+      "hemisphere": "east",
+      "traditionId": "dao",
+      "order": 9,
+      "portrait": "/portraits/laozi.svg",
+      "monogram": "老",
+      "guide": "《老子》作者与年代至今无定论，郭店楚简本（约公元前 300 年）与今本差异显著。第一章的“道可道”是与维特根斯坦最好的入口：两人都在语言边界处停步，但停步之后，一个转身体道，一个转身清理命题。",
+      "bio": "传为周守藏室之史，姓名生卒不可确考；《道德经》五千言成书与作者问题学界长期争议。",
+      "keywords": ["kw-laozi-wuwei", "kw-laozi-dao", "kw-laozi-sun"],
+      "quotes": [
+        { "text": "道可道，非常道；名可名，非常名。无名天地之始，有名万物之母。", "source": "《老子》第一章" },
+        { "text": "有物混成，先天地生。寂兮寥兮，独立而不改，周行而不殆……吾不知其名，强字之曰道。", "source": "《老子》第二十五章" }
+      ]
+    },
+    {
+      "id": "wittgenstein",
+      "name": "路德维希·维特根斯坦",
+      "latin": "Ludwig Wittgenstein",
+      "era": "公元 1889–1951",
+      "hemisphere": "west",
+      "traditionId": "analytic",
+      "order": 10,
+      "portrait": "/portraits/wittgenstein.svg",
+      "monogram": "W",
+      "guide": "《逻辑哲学论》只有编号短句，最后一条是第七条“沉默”。请对照《老子》第一章：沉默在维特根斯坦那里是逻辑的边界，在老子那里是损之又损的开始。他后期还会亲手推翻自己。",
+      "bio": "奥地利裔英国哲学家。早年受学于罗素，《逻辑哲学论》后离开学界；后期以《哲学研究》批判自己的图像论。",
+      "keywords": ["kw-witt-silence", "kw-witt-limit", "kw-witt-show"],
+      "quotes": [
+        { "text": "我的语言的界限意味着我的世界的界限。", "source": "维特根斯坦《逻辑哲学论》5.6" },
+        { "text": "对于不可说的东西，必须保持沉默。", "source": "维特根斯坦《逻辑哲学论》7" }
+      ]
+    },
+    {
+      "id": "hanfei",
+      "name": "韩非",
+      "latin": "Han Fei",
+      "era": "约公元前 280–前 233",
+      "hemisphere": "east",
+      "traditionId": "fajia",
+      "order": 11,
+      "portrait": "/portraits/hanfei.svg",
+      "monogram": "韓",
+      "guide": "他是荀子的学生，却写有《解老》《喻老》——法家与道家的关系不是后人附会。对照霍布斯：两人都从利益与恐惧推导秩序，但利维坦来自契约，法术来自人主之势。",
+      "bio": "韩之诸公子。与李斯同师荀子，著书传至秦，为秦王政所重；入秦后为李斯所谮，死于狱中。",
+      "quotes": [
+        { "text": "明主之所导制其臣者，二柄而已矣。二柄者，刑德也。", "source": "《韩非子·二柄》" },
+        { "text": "是以古之易财，非仁也，财多也；今之争夺，非鄙也，财寡也。", "source": "《韩非子·五蠹》" }
+      ],
+      "keywords": ["kw-hanfei-jielao", "kw-hanfei-erbing", "kw-hanfei-shi"]
+    },
+    {
+      "id": "hobbes",
+      "name": "托马斯·霍布斯",
+      "latin": "Thomas Hobbes",
+      "era": "公元 1588–1679",
+      "hemisphere": "west",
+      "traditionId": "contract",
+      "order": 12,
+      "portrait": "/portraits/hobbes.svg",
+      "monogram": "H",
+      "guide": "英国内战的流亡经验是《利维坦》的底色：自然状态的战争推论并非人性恶的断言，而是无共同权力时最坏情形的理性推演。（他的石像档案图已损坏，此处只显示文字。）",
+      "bio": "英国哲学家。流亡巴黎期间写《利维坦》（1651），近代社会契约论与政治科学的奠基者之一。",
+      "keywords": ["kw-hobbes-leviathan", "kw-hobbes-war", "kw-hobbes-contract"],
+      "quotes": [
+        { "text": "在没有共同权力使人畏惧的地方，人们便处在所谓的战争状态之下……这种战争是每一个人对每一个人的战争。", "source": "霍布斯《利维坦》第十三章" },
+        { "text": "自然权利，就是每一个人按照自己所愿意的方式运用自己的力量保全自己天性的自由。", "source": "霍布斯《利维坦》第十四章" }
+      ]
+    },
+    {
+      "id": "nagarjuna",
+      "name": "龙树",
+      "latin": "Nāgārjuna",
+      "era": "约公元 150–250",
+      "hemisphere": "east",
+      "traditionId": "foxue",
+      "order": 13,
+      "portrait": "/portraits/nagarjuna.svg",
+      "monogram": "龍",
+      "guide": "中观派创始人。他的“空”不是虚无，而是“无自性”：任何法都不能脱离因缘自存。对照康德的二律背反：两人都用理性自身的矛盾划界，但界限之后，一个要建立体系，一个要破除建立本身。",
+      "bio": "南印度人。大乘佛教中观学派创立者，著《中论》《大智度论》《十二门论》等，汉藏所传生平多神话成分。",
+      "keywords": ["kw-nagarjuna-eight-negations", "kw-nagarjuna-svabhava", "kw-nagarjuna-middle"],
+      "quotes": [
+        { "text": "不生亦不灭，不常亦不断，不一亦不异，不来亦不出。", "source": "龙树《中论·观因缘品》（“八不”）" },
+        { "text": "众因缘生法，我说即是空，亦为是假名，亦是中道义。", "source": "龙树《中论·观四谛品》第二十四品" }
+      ]
+    },
+    {
+      "id": "kant",
+      "name": "伊曼努尔·康德",
+      "latin": "Immanuel Kant",
+      "era": "公元 1724–1804",
+      "hemisphere": "west",
+      "traditionId": "german",
+      "order": 14,
+      "portrait": "/portraits/kant.svg",
+      "monogram": "K",
+      "guide": "据说他一生未远出哥尼斯堡，却在思想中完成了一场“哥白尼式革命”。读《纯粹理性批判》的二律背反时对照龙树的“八不”：矛盾在此是划界工具——界限之内是科学，界限之外是自由与公设。",
+      "bio": "德国哥尼斯堡人。三大批判作者，前批判时期以星云假说闻名，1770 年后建立批判哲学。",
+      "keywords": ["kw-kant-antinomy", "kw-kant-thinginitself", "kw-kant-categorical"],
+      "quotes": [
+        { "text": "因此我不得不悬置知识，以便给信仰腾出位置。", "source": "康德《纯粹理性批判》第二版序言" },
+        { "text": "有两样东西，越是经常而持久地对它们进行思考，就越是使心灵充满常新而日益增长的惊赞和敬畏：我头上的星空和我心中的道德法则。", "source": "康德《实践理性批判》结论" }
+      ]
+    },
+    {
+      "id": "huineng",
+      "name": "慧能",
+      "latin": "Huineng",
+      "era": "公元 638–713",
+      "hemisphere": "east",
+      "traditionId": "foxue",
+      "order": 15,
+      "portrait": "/portraits/huineng.svg",
+      "monogram": "能",
+      "guide": "不识字的岭南樵夫成为禅宗六祖。“本来无一物”与神秀“时时勤拂拭”的分歧，不是修行勤懒，而是有没有一个可被拂拭的“心”。对照萨特：无本质之后，是承担自由，还是认出本自清净？",
+      "bio": "岭南新州人。闻《金刚经》悟道，黄梅得法后隐居十五年；南宗禅创始人，《坛经》为其说法记录。",
+      "keywords": ["kw-huineng-nothing", "kw-huineng-nonconcept", "kw-huineng-prajna"],
+      "quotes": [
+        { "text": "菩提本无树，明镜亦非台，本来无一物，何处惹尘埃。", "source": "《坛经·行由品》（得法偈）" },
+        { "text": "前念迷即凡夫，后念悟即佛；前念著境即烦恼，后念离境即菩提。", "source": "《坛经·般若品》" }
+      ]
+    },
+    {
+      "id": "sartre",
+      "name": "让-保罗·萨特",
+      "latin": "Jean-Paul Sartre",
+      "era": "公元 1905–1980",
+      "hemisphere": "west",
+      "traditionId": "exist",
+      "order": 16,
+      "portrait": "/portraits/sartre.svg",
+      "monogram": "S",
+      "guide": "1945 年的公开演讲是存在主义最著名也最被简化的版本。“存在先于本质”原是对上帝缺席的回应：没有神圣工匠，就没有先在的设计。对照慧能：没有本质之后，一个说人必须自我造就，一个说造作者亦不可得。",
+      "bio": "法国哲学家、作家。《存在与虚无》《禁闭》《存在主义是一种人道主义》作者，拒领 1964 年诺贝尔文学奖。",
+      "keywords": ["kw-sartre-existence", "kw-sartre-freedom", "kw-sartre-badfaith"],
+      "quotes": [
+        { "text": "存在先于本质。……人首先存在着，然后才通过他自己把自己造就为他所是的东西。", "source": "萨特《存在主义是一种人道主义》（1946）" },
+        { "text": "人是被判处自由的。……他没有创造自己，却被抛入世界，并要为自己的一切所作所为负责。", "source": "萨特《存在主义是一种人道主义》（1946）" }
+      ]
+    },
+    {
+      "id": "zhuxi",
+      "name": "朱熹",
+      "latin": "Zhu Xi",
+      "era": "公元 1130–1200",
+      "hemisphere": "east",
+      "traditionId": "lixue",
+      "order": 17,
+      "portrait": "/portraits/zhuxi.svg",
+      "monogram": "熹",
+      "guide": "他把《大学》《中庸》《论语》《孟子》编定为四书，此后七百年的科举以他的注释为标准。理一分殊与阿奎那的法层级惊人同构，差别在顶端：理无情意、无造作，永恒法则出自一位立法者。",
+      "bio": "徽州婺源人。闽学代表，理学集大成者；《四书章句集注》《朱子语类》《近思录》（与吕祖谦合编）。",
+      "keywords": ["kw-zhuxi-liyi", "kw-zhuxi-gewu", "kw-zhuxi-liqi"],
+      "quotes": [
+        { "text": "未有天地之先，毕竟也只是理。有此理，便有此天地；若无此理，便亦无天地，无人无物。", "source": "《朱子语类》卷一" },
+        { "text": "是以大学始教，必使学者即凡天下之物，莫不因其已知之理而益穷之，以求至乎其极。", "source": "朱熹《大学章句》补格物传" }
+      ]
+    },
+    {
+      "id": "aquinas",
+      "name": "托马斯·阿奎那",
+      "latin": "Thomas Aquinas",
+      "era": "公元 1225–1274",
+      "hemisphere": "west",
+      "traditionId": "scholastic",
+      "order": 18,
+      "portrait": "/portraits/aquinas.svg",
+      "monogram": "T",
+      "guide": "经院哲学的综合者：亚里士多德的理性与启示在《神学大全》的问答体中并置。自然法是对永恒法的“分有”——对照理一分殊：万物是否都在映同一轮月，还是在服从一位立法者的范型？",
+      "bio": "意大利那不勒斯人。多明我会士，《神学大全》《反异教大全》作者，1323 年封圣。",
+      "keywords": ["kw-aquinas-eternal-law", "kw-aquinas-natural-law", "kw-aquinas-synderesis"],
+      "quotes": [
+        { "text": "法律不外乎是由那统治一个完整社会的“君王”所体现的实践理性所颁布的、旨在共同善的安排。", "source": "阿奎那《神学大全》I-II, q.90, a.4" },
+        { "text": "自然法不过是理性受造物对永恒法的分有。", "source": "阿奎那《神学大全》I-II, q.91, a.2" }
+      ]
+    },
+    {
+      "id": "wang-yangming",
+      "name": "王阳明",
+      "latin": "Wang Yangming",
+      "era": "公元 1472–1529",
+      "hemisphere": "east",
+      "traditionId": "lixue",
+      "order": 19,
+      "portrait": "/portraits/wang-yangming.svg",
+      "monogram": "明",
+      "guide": "“龙场悟道”后他认定心即理，知行合一不是修身口号而是本体陈述：知而不行只是未知得真。对照杜威：行动中的知，一个向内复归本具的良知，一个向外进行可错的探究。",
+      "bio": "浙江余姚人。因忤刘瑾谪龙场驿丞，后平宁王之乱；心学集大成者，《传习录》由弟子辑录。",
+      "keywords": ["kw-wang-unity", "kw-wang-liangzhi", "kw-wang-mind-is-principle"],
+      "quotes": [
+        { "text": "知是行之始，行是知之成。……知行如何分得开？此便是知行的本体。", "source": "《传习录》卷上（徐爱录）" },
+        { "text": "如好好色，如恶恶臭。见好色属知，好好色属行，只见那好色时已自好了，不是见了后又立个心去好。", "source": "《传习录》卷上（徐爱录）" }
+      ]
+    },
+    {
+      "id": "dewey",
+      "name": "约翰·杜威",
+      "latin": "John Dewey",
+      "era": "公元 1859–1952",
+      "hemisphere": "west",
+      "traditionId": "pragmatism",
+      "order": 20,
+      "portrait": "/portraits/dewey.svg",
+      "monogram": "D",
+      "guide": "他反对把教育当“为生活做准备”，因为生活就是探究本身。对照阳明的知行合一：两者都反对旁观式的知，但杜威的探究没有本具的良知作罗盘，方法本身也接受检验——这是民主生活与成圣之学的分水岭。",
+      "bio": "美国佛蒙特人。实用主义哲学代表，《民主主义与教育》《哲学的改造》作者；1919–1921 年曾在中国讲学。",
+      "keywords": ["kw-dewey-learning", "kw-dewey-inquiry", "kw-dewey-growth"],
+      "quotes": [
+        { "text": "教育不是为未来生活做准备，教育就是生活本身。", "source": "杜威《民主主义与教育》第一章（通行概括）" },
+        { "text": "思维就是有意识地努力去发现我们所做的事和所造成的结果之间的特定的联结。", "source": "杜威《民主主义与教育》第十一章" }
+      ]
+    }
+  ],
+  "keywords": [
+    { "id": "kw-confucius-ren", "label": "仁", "to": { "kind": "question", "id": "q-virtue-teachable", "via": "孔子之仁不是定义出来的，《论语》中孔子对弟子问仁的回答因人而异：仁在具体的人伦行动中被指点。" } },
+    { "id": "kw-confucius-ritual", "label": "礼乐教化", "to": { "kind": "figure", "id": "xunzi-ritual", "via": "荀子是先秦礼乐论的另一位系统阐释者（档案尚未收录，此路暂未开通）。" } },
+    { "id": "kw-confucius-learning", "label": "愤启悱发", "to": { "kind": "question", "id": "q-virtue-teachable", "via": "“不愤不启”与苏格拉底的诘问助产术，共享时机性的教育观。" } },
+    { "id": "kw-socrates-elenchus", "label": "诘问助产术", "to": { "kind": "question", "id": "q-virtue-teachable", "via": "诘问（elenchus）检验的是对话者是否真的知道自己声称知道的东西。" } },
+    { "id": "kw-socrates-virtue-knowledge", "label": "德性即知识", "to": { "kind": "figure", "id": "confucius", "via": "无人自愿作恶——若苏格拉底是对的，孔子的“学”是否也是一种知识？" } },
+    { "id": "kw-socrates-aporia", "label": "困境 aporia", "to": null },
+    { "id": "kw-mozi-jianai", "label": "兼爱", "to": { "kind": "question", "id": "q-utility", "via": "兼爱的最终论证是“天下之大利”，而非亲疏之情。" } },
+    { "id": "kw-mozi-sanbiao", "label": "言有三表", "to": { "kind": "figure", "id": "mill", "via": "三表中的“用之”与效用原则，都是为学说寻找后果尺度。" } },
+    { "id": "kw-mozi-fejie", "label": "节用非乐", "to": null },
+    { "id": "kw-mill-utility", "label": "最大幸福原则", "to": { "kind": "question", "id": "q-utility", "via": "第一原则的位置：墨子把它让给天志，密尔只承认幸福本身值得欲求。" } },
+    { "id": "kw-mill-liberty", "label": "个性与自由", "to": { "kind": "figure", "id": "sartre", "via": "《论自由》的个体性与存在主义的自由，一个是社会边界问题，一个是本体论处境。" } },
+    { "id": "kw-mill-quality", "label": "快乐的质", "to": null },
+    { "id": "kw-mencius-siduan", "label": "四端之心", "to": { "kind": "question", "id": "q-nature-good", "via": "四端的论证依赖“乍见孺子将入于井”这一前反思的瞬间。" } },
+    { "id": "kw-mencius-kuochong", "label": "扩充", "to": { "kind": "figure", "id": "rousseau", "via": "善端需要“扩充”，而卢梭认为自然善需要的是不被败坏：种子的两种命运。" } },
+    { "id": "kw-mencius-humanity-righteousness", "label": "仁义内在", "to": { "kind": "figure", "id": "wang-yangming", "via": "仁义内在的命题，在阳明那里被推到“心外无义”。" } },
+    { "id": "kw-rousseau-pity", "label": "怜悯心", "to": { "kind": "question", "id": "q-nature-good", "via": "怜悯“先于一切反思”，与恻隐之心一样位于利害计算之前。" } },
+    { "id": "kw-rousseau-amourpropre", "label": "自尊与比较", "to": { "kind": "figure", "id": "mencius", "via": "amour-propre 是社会化的产物；孟子会说问题不在人伦，而在端绪未充。" } },
+    { "id": "kw-rousseau-natural", "label": "自然状态", "to": { "kind": "figure", "id": "hobbes", "via": "同一时代的两种自然状态：霍布斯的战争与卢梭的孤独自由。" } },
+    { "id": "kw-zhuangzi-daoshu", "label": "道枢环中", "to": { "kind": "question", "id": "q-flux", "via": "彼是莫得其偶：不是在对立中选边，而是站到环中。" } },
+    { "id": "kw-zhuangzi-wuhua", "label": "物化", "to": { "kind": "figure", "id": "heraclitus", "via": "庄周梦蝶的“物化”与河水中的“新流”，都肯定转化本身。" } },
+    { "id": "kw-zhuangzi-xiaoyao", "label": "逍遥游", "to": null },
+    { "id": "kw-heraclitus-logos", "label": "逻各斯 logos", "to": { "kind": "question", "id": "q-flux", "via": "流变“依据逻各斯而生成”——尺度本身不流。" } },
+    { "id": "kw-heraclitus-flux", "label": "万物流变", "to": { "kind": "figure", "id": "zhuangzi", "via": "B12 说的是不断遇到新水流，而非简单地说“无物常驻”。" } },
+    { "id": "kw-heraclitus-opposites", "label": "对立同一", "to": { "kind": "figure", "id": "nagarjuna", "via": "B88 的对立相互转化，通向龙树的“不一不异”。" } },
+    { "id": "kw-laozi-wuwei", "label": "无为", "to": { "kind": "figure", "id": "hanfei", "via": "韩非《解老》把无为改写成君主驭臣的术——同一个词的法家转向。", "relation": "rel-hanfei-jielao" } },
+    { "id": "kw-laozi-dao", "label": "常道不可名", "to": { "kind": "question", "id": "q-ineffable", "via": "“道可道，非常道”是全部语言问题的入口。" } },
+    { "id": "kw-laozi-sun", "label": "为道日损", "to": { "kind": "figure", "id": "wittgenstein", "via": "沉默之后：日损的体道，与清理命题的治疗。" } },
+    { "id": "kw-witt-silence", "label": "保持沉默", "to": { "kind": "question", "id": "q-ineffable", "via": "第七条是全书唯一一行没有编号分支的句子。" } },
+    { "id": "kw-witt-limit", "label": "语言的界限", "to": { "kind": "figure", "id": "laozi", "via": "不可说者在老子处不是边界的终点，而是强字之曰道的起点。" } },
+    { "id": "kw-witt-show", "label": "显示", "to": { "kind": "figure", "id": "huineng", "via": "不可说而“显示”的，与“如人饮水冷暖自知”的宗门经验，是否相邻？" } },
+    { "id": "kw-hanfei-jielao", "label": "解老", "to": { "kind": "figure", "id": "laozi", "via": "《解老》《喻老》是最早的《老子》注之一：法家在道家处寻找人主南面之术。", "relation": "rel-hanfei-jielao" } },
+    { "id": "kw-hanfei-erbing", "label": "二柄", "to": { "kind": "question", "id": "q-order", "via": "刑德二柄独操于上，秩序不依赖任何人变好。" } },
+    { "id": "kw-hanfei-shi", "label": "势", "to": { "kind": "figure", "id": "hobbes", "via": "势与利维坦：结构性的威慑，但一个无需契约，一个源于契约。" } },
+    { "id": "kw-hobbes-leviathan", "label": "利维坦", "to": { "kind": "question", "id": "q-order", "via": "人造的神：会死的上帝，由契约造成。" } },
+    { "id": "kw-hobbes-war", "label": "一切人对一切人的战争", "to": { "kind": "figure", "id": "hanfei", "via": "韩非的“当今争于气力”是否也是一种自然状态？他没有契约的出路。" } },
+    { "id": "kw-hobbes-contract", "label": "信约与授权", "to": { "kind": "figure", "id": "rousseau", "via": "卢梭改写了契约的条款：主权不可让渡给利维坦，只属于人民。" } },
+    { "id": "kw-nagarjuna-eight-negations", "label": "八不中道", "to": { "kind": "question", "id": "q-reason-limit", "via": "八个否定不是八个立场，而是堵住一切自性化的出路。" } },
+    { "id": "kw-nagarjuna-svabhava", "label": "无自性", "to": { "kind": "figure", "id": "kant", "via": "物自身若被当作可认识的自性，同样落入二律背反——两种批判在此相遇。" } },
+    { "id": "kw-nagarjuna-middle", "label": "缘起性空", "to": { "kind": "figure", "id": "huineng", "via": "中观的空义，在禅宗那里变成“无念为宗”的日常实践。", "relation": "rel-huineng-langka" } },
+    { "id": "kw-kant-antinomy", "label": "二律背反", "to": { "kind": "question", "id": "q-reason-limit", "via": "理性越界时正题与反题同样可证——矛盾是界碑。" } },
+    { "id": "kw-kant-thinginitself", "label": "物自身", "to": { "kind": "figure", "id": "nagarjuna", "via": "物自身不可知但可思；性空不是隐藏的本质，而是对本质的否定。" } },
+    { "id": "kw-kant-categorical", "label": "绝对命令", "to": null },
+    { "id": "kw-huineng-nothing", "label": "本来无一物", "to": { "kind": "question", "id": "q-authenticity", "via": "神秀的渐修仍预设一个要被擦亮的心；慧能连这个载体也撤掉。" } },
+    { "id": "kw-huineng-nonconcept", "label": "无念为宗", "to": { "kind": "figure", "id": "sartre", "via": "无念不是没有念头，而是于念不住；萨特会说不选择仍是一种选择。" } },
+    { "id": "kw-huineng-prajna", "label": "自性般若", "to": { "kind": "figure", "id": "wang-yangming", "via": "何期自性能生万法——阳明的良知是否是这一传统的儒家转写？" } },
+    { "id": "kw-sartre-existence", "label": "存在先于本质", "to": { "kind": "question", "id": "q-authenticity", "via": "工匠造刀有先在的图样；上帝若死了，人没有图样。" } },
+    { "id": "kw-sartre-freedom", "label": "被判处自由", "to": { "kind": "figure", "id": "huineng", "via": "自由在萨特处是重负，在慧能处，“本来无缚”是解脱的消息。" } },
+    { "id": "kw-sartre-badfaith", "label": "自欺", "to": null },
+    { "id": "kw-zhuxi-liyi", "label": "理一分殊", "to": { "kind": "question", "id": "q-principle", "via": "月映万川：万川之月不是万川各有一个月亮。" } },
+    { "id": "kw-zhuxi-gewu", "label": "即物穷理", "to": { "kind": "figure", "id": "aquinas", "via": "今日格一件与从受造物中认识永恒法：两种上升的阶梯。" } },
+    { "id": "kw-zhuxi-liqi", "label": "理气不离不杂", "to": { "kind": "figure", "id": "wang-yangming", "via": "阳明反对的正是理在心外的预设：理若只在物上，心成了什么？" } },
+    { "id": "kw-aquinas-eternal-law", "label": "永恒法", "to": { "kind": "question", "id": "q-principle", "via": "永恒法是神智慧统治万物的范型——顶端有一位立法者。" } },
+    { "id": "kw-aquinas-natural-law", "label": "自然法", "to": { "kind": "figure", "id": "zhuxi", "via": "分有永恒法，与物各禀其理：同形构，不同顶端。" } },
+    { "id": "kw-aquinas-synderesis", "label": "良知（synteresis）", "to": { "kind": "figure", "id": "wang-yangming", "via": "阿奎那的良知是自然法在人心中的习性；阳明的良知则是本体本身。" } },
+    { "id": "kw-wang-unity", "label": "知行合一", "to": { "kind": "question", "id": "q-unity-knowing-doing", "via": "好好色之喻：真正的知在发动处已是行。" } },
+    { "id": "kw-wang-liangzhi", "label": "致良知", "to": { "kind": "figure", "id": "dewey", "via": "事上磨练的良知，与在行动后果中修正的探究：内在罗盘 vs 可错方法。" } },
+    { "id": "kw-wang-mind-is-principle", "label": "心即理", "to": { "kind": "figure", "id": "zhuxi", "via": "龙场之悟直接反对“即物穷理”：心外无理，心外无物。" } },
+    { "id": "kw-dewey-learning", "label": "从做中学", "to": { "kind": "question", "id": "q-unity-knowing-doing", "via": "经验首先是“做”（undergo 与 doing 的联结），不是观看。" } },
+    { "id": "kw-dewey-inquiry", "label": "探究的逻辑", "to": { "kind": "figure", "id": "wang-yangming", "via": "反思性探究没有先验终点；致良知的终点却人人具足、不假外求。" } },
+    { "id": "kw-dewey-growth", "label": "生长即目的", "to": null }
+  ],
+  "relations": [
+    {
+      "id": "rel-hanfei-jielao",
+      "kind": "文本注释",
+      "from": "hanfei",
+      "to": "laozi",
+      "quote": "凡德者，以无为集，以无欲成，以不思安，以不用固。",
+      "source": "《韩非子·解老》",
+      "note": "《解老》《喻老》是现存最早的《老子》注本之一。韩非把老子的无为转用于人主南面之术：君主虚静以驭臣下，道论由此接入法术。这是思想史内部真实发生的解释史关系，而非立场相似。"
+    },
+    {
+      "id": "rel-mill-on-confucius",
+      "kind": "他者观察",
+      "from": "mill",
+      "to": "confucius",
+      "quote": "在基督教民族中，格言……在很大程度上仍来自更古老的格言；而在中国，格言的权威来自孔子及其学派。",
+      "source": "密尔《论自由》第二章（1859）",
+      "note": "密尔在《论自由》中以中国为“习俗的专制”之例，批评一个民族把前代哲人智慧定为后人的固定规矩。这是西方现代性对儒家“述而不作”的一次尖锐误读式照面，也可据此反问：学而非作是否必然压制个性？"
+    },
+    {
+      "id": "rel-mencius-zhuxi",
+      "kind": "道统承接",
+      "from": "zhuxi",
+      "to": "mencius",
+      "quote": "孟氏没而圣学不传……及先生出，而有以接乎孟氏之传。",
+      "source": "朱熹《大学章句序》及《孟子集注》",
+      "note": "朱熹把《孟子》升入四书并作《孟子集注》，正式确立孟子在道统中的地位——在韩愈之前，孟子并非先秦儒家的当然第二人。这是一次改变了文本地位的注释行动。"
+    },
+    {
+      "id": "rel-rousseau-hobbes",
+      "kind": "论辩对象",
+      "from": "rousseau",
+      "to": "hobbes",
+      "quote": "霍布斯之所以主张人性本恶，是因为他把满足无数已成的、人为的情欲的需要，错误地归给了自然状态。",
+      "source": "卢梭《论人类不平等的起源和基础》第一部分（1755）",
+      "note": "卢梭明确点名霍布斯：自然状态中的人没有自尊、没有财产观念，因而不可能有战争；战争状态是社会化之后的产物。这是对同一思想实验前提的正面交锋，而非相似。"
+    },
+    {
+      "id": "rel-aquinas-aristotle",
+      "kind": "权威援引",
+      "from": "aquinas",
+      "to": "aristotle",
+      "quote": "正如哲学家（亚里士多德）在《尼各马可伦理学》第五卷中所说，自然法的变动……一种是作为原则，一种是作为结论。",
+      "source": "阿奎那《神学大全》I-II, q.94, a.5；q.95, a.2",
+      "note": "阿奎那称亚里士多德为“那位哲学家”（philosophus）而不名。经院综合的实质是把亚里士多德的目的论纳入创世—神恩框架；亚里士多德本人尚未收入本档案（此为悬置的关系）。"
+    },
+    {
+      "id": "rel-sartre-kant",
+      "kind": "问题回应",
+      "from": "sartre",
+      "to": "kant",
+      "quote": "康德的伦理学认为，形式与普遍的东西就足以构成一种伦理学；而我们认为，过于抽象的原则在规定行动时会归于失败。",
+      "source": "萨特《存在主义是一种人道主义》（1946）",
+      "note": "萨特保留了康德的责任与普遍立法语汇，却抽掉了抽象的普遍准则：具体处境中的选择无法被任何公式预先决定。这是法国思想内部对德国古典哲学的公开回应。"
+    },
+    {
+      "id": "rel-huineng-langka",
+      "kind": "经典依据",
+      "from": "huineng",
+      "to": "lankavatara-sutra",
+      "quote": "法本一宗，人有南北；法即一种，见有迟疾。何名顿渐？法无顿渐，人有利钝，故名顿渐。",
+      "source": "《坛经·行由品》",
+      "note": "早期禅宗（楞伽师）以四卷《楞伽经》印心，《坛经》转而以《金刚经》为悟缘。此条指向尚未收录的经论文本节点，展示思想人物与经籍之间的引用网络并不完整。"
+    },
+    {
+      "id": "rel-dewey-china",
+      "kind": "历史遇合",
+      "from": "dewey",
+      "to": "hu-shih",
+      "quote": null,
+      "source": "1919–1921 年杜威在华讲学记录（《杜威五大讲演》）",
+      "note": "杜威五四运动期间在中国停留两年余，由胡适等学生翻译，其实验主义教育观直接介入了当时的学制与思想论争。胡适档案尚未建立，此关系暂时悬空，不作名言补全。"
+    }
+  ]
+}

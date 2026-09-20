@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="theme-color" content="#141311" />
+  <title>墨与大理石 · 一条按问题展开的思想人物长廊</title>
+  <meta name="description" content="东方思想人物与西方哲学家并置的实验性人物长廊。关联不靠容貌或名言的表面相似，而靠共同的问题与原文。" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23141311'/%3E%3Ctext x='16' y='23' text-anchor='middle' font-size='20' fill='%23cbbf9e'%3E墨%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#corridor">跳到人物长廊</a>
+
+  <header class="site-head" id="siteHead">
+    <div class="site-head-inner">
+      <a class="brand" href="#/" aria-label="墨与大理石，回到长廊入口">
+        <span class="brand-ink">墨</span><span class="brand-amp">&amp;</span><span class="brand-marble">大理石</span>
+      </a>
+      <nav class="head-nav" aria-label="长廊导航">
+        <button type="button" class="head-nav-btn" data-nav="index">长廊总目</button>
+        <button type="button" class="head-nav-btn" data-nav="traditions">传统</button>
+        <button type="button" class="head-nav-btn" data-nav="recent" id="recentHeadBtn" hidden>最近：<span id="recentHeadLabel">—</span></button>
+      </nav>
+    </div>
+    <div class="scroll-progress" aria-hidden="true"><span id="scrollProgress"></span></div>
+  </header>
+
+  <!-- 首屏：文字先行，图像不阻塞首字绘制 -->
+  <section class="hero" aria-labelledby="heroTitle">
+    <p class="hero-kicker">INK &amp; MARBLE — A SLOW CORRIDOR OF QUESTIONS</p>
+    <h1 id="heroTitle" class="hero-title">
+      <span class="hero-char hero-char-ink">墨</span><span class="hero-char hero-char-marble">大理石</span>
+    </h1>
+    <p class="hero-sub">这里不把孔子比苏格拉底的容貌，也不把“万物流变”与“物化”当成同义语。<br />
+      每一对人物，只由<strong>一个共同问题</strong>与<strong>双方原文</strong>系在一起。</p>
+    <p class="hero-hint"><span class="hero-hint-line"></span>向下滚动，人物逐层显影；点击关键词，沿问题跳转到另一端<span class="hero-hint-line"></span></p>
+  </section>
+
+  <div class="offline-banner" id="offlineBanner" hidden>
+    <strong>网络已中断。</strong> 长廊数据暂时取自本机缓存；恢复连接后会自动继续。
+  </div>
+
+  <main id="corridor" class="corridor" tabindex="-1" aria-label="思想人物长廊">
+    <!-- 文本优先：JS 尚未执行时给出静态说明与数据入口，而非空白屏 -->
+    <noscript>
+      <div class="noscript-block">
+        <h2>本页需要 JavaScript 才能逐层展开长廊。</h2>
+        <p>但内容不依赖框架：以下接口直接返回纯 JSON，可作为文本阅读——</p>
+        <ul>
+          <li><a href="/api/figures">/api/figures</a> 人物目录（含年代、传统、关键词、短导览）</li>
+          <li><a href="/api/questions">/api/questions</a> 把成对人物系在一起的共同问题</li>
+          <li><a href="/api/traditions">/api/traditions</a> 思想传统</li>
+          <li><a href="/api/relations">/api/relations</a> 文本注释、论辩与援引关系（含未收录目标）</li>
+        </ul>
+        <p>每张卡片的顺序是：文字（年代、关键词、导览）优先，图像只是档案图，且抽象地以“墨像 / 石像”标记，不模拟任何人物容貌。</p>
+      </div>
+    </noscript>
+
+    <!-- 初始加载：纯文字提示，不放大图 -->
+    <div class="loading-block" id="loadingBlock" aria-live="polite">
+      <span class="loading-seal">墨</span>
+      <p>正在展开发黄的档案目录……</p>
+    </div>
+  </main>
+
+  <footer class="site-foot">
+    <p>墨与大理石 / INK &amp; MARBLE —— 关系以原文为准；档案不完整处不补全，只标注。</p>
+  </footer>
+
+  <!-- 弹层：人物档案 / 共同问题 -->
+  <div class="overlay" id="overlay" hidden>
+    <div class="overlay-backdrop" data-close></div>
+    <section class="overlay-panel" role="dialog" aria-modal="true" aria-labelledby="overlayTitle" id="overlayPanel">
+      <button type="button" class="overlay-close" data-close aria-label="关闭（Esc）">×</button>
+      <div id="overlayBody"></div>
+    </section>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="760" viewBox="0 0 600 760" role="img" aria-label="MILL 石像（抽象档案图，非容貌）">
+  <defs>
+    <linearGradient id="stone-mill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e9e7e2"/><stop offset="0.55" stop-color="#d9d6cf"/><stop offset="1" stop-color="#c9c6bf"/>
+    </linearGradient>
+    <linearGradient id="bust-mill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b8b5ad"/><stop offset="1" stop-color="#8f8c85"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="760" fill="url(#stone-mill)"/>
+  <path d="M 525.4 -20 L 527.3,68.9 L 494.7,157.8 L 483.4,246.7 L 505.4,335.6 L 469.8,424.4 L 468.5,513.3 L 466.6,602.2 L 470.8,691.1 L 446.4,780.0" fill="none" stroke="rgb(159,159,163)" stroke-width="2.1" opacity="0.26"/>
+  <path d="M 207.4 -20 L 195.4,68.9 L 175.5,157.8 L 152.0,246.7 L 142.7,335.6 L 157.9,424.4 L 160.3,513.3 L 155.9,602.2 L 125.6,691.1 L 117.7,780.0" fill="none" stroke="rgb(136,136,140)" stroke-width="0.7" opacity="0.15"/>
+  <path d="M 279.6 -20 L 304.3,68.9 L 345.3,157.8 L 375.9,246.7 L 380.5,335.6 L 420.5,424.4 L 458.5,513.3 L 473.4,602.2 L 504.9,691.1 L 525.4,780.0" fill="none" stroke="rgb(167,167,171)" stroke-width="1.9" opacity="0.16"/>
+  <path d="M 576.8 -20 L 593.2,68.9 L 597.8,157.8 L 590.3,246.7 L 586.8,335.6 L 579.0,424.4 L 576.4,513.3 L 608.0,602.2 L 644.2,691.1 L 663.7,780.0" fill="none" stroke="rgb(145,145,149)" stroke-width="0.7" opacity="0.10"/>
+  <path d="M 452.4 -20 L 455.9,68.9 L 475.0,157.8 L 502.2,246.7 L 498.0,335.6 L 483.8,424.4 L 478.2,513.3 L 466.3,602.2 L 436.3,691.1 L 462.1,780.0" fill="none" stroke="rgb(121,121,125)" stroke-width="1.7" opacity="0.25"/>
+  <path d="M 407.3 -20 L 408.4,68.9 L 388.1,157.8 L 394.6,246.7 L 389.6,335.6 L 375.7,424.4 L 366.6,513.3 L 386.2,602.2 L 369.5,691.1 L 384.4,780.0" fill="none" stroke="rgb(140,140,144)" stroke-width="0.9" opacity="0.18"/>
+  <path d="M 328.9 -20 L 313.4,68.9 L 298.7,157.8 L 322.2,246.7 L 361.8,335.6 L 358.5,424.4 L 346.5,513.3 L 347.4,602.2 L 349.8,691.1 L 379.5,780.0" fill="none" stroke="rgb(164,164,168)" stroke-width="1.2" opacity="0.26"/>
+  <path d="M 222.6 -20 L 194.9,68.9 L 202.7,157.8 L 183.6,246.7 L 159.6,335.6 L 182.0,424.4 L 201.3,513.3 L 177.7,602.2 L 165.5,691.1 L 167.3,780.0" fill="none" stroke="rgb(138,138,142)" stroke-width="1.4" opacity="0.13"/>
+  <path d="M 338.7 -20 L 362.4,68.9 L 380.7,157.8 L 391.6,246.7 L 365.9,335.6 L 357.9,424.4 L 355.0,513.3 L 377.0,602.2 L 359.5,691.1 L 337.3,780.0" fill="none" stroke="rgb(143,143,147)" stroke-width="1.2" opacity="0.21"/>
+  <g opacity="0.9">
+    <path d="M300 214 a86 86 0 1 0 0.1 0 Z" fill="url(#bust-mill)"/>
+    <path d="M150 620 c0 -118 67 -178 150 -178 c83 0 150 60 150 178 Z" fill="url(#bust-mill)"/>
+    <path d="M300 214 a86 86 0 1 0 0.1 0" fill="none" stroke="#6f6d68" stroke-width="2" opacity="0.6"/>
+    <path d="M150 620 c0 -118 67 -178 150 -178 c83 0 150 60 150 178" fill="none" stroke="#6f6d68" stroke-width="2" opacity="0.6"/>
+  </g>
+  <text x="300" y="392" text-anchor="middle" font-family="Georgia,serif" font-size="120" fill="#f4f2ec" opacity="0.55">M</text>
+  <rect x="120" y="668" width="360" height="2" fill="#7d7a74" opacity="0.7"/>
+  <text x="300" y="712" text-anchor="middle" font-family="Georgia,serif" font-size="15" letter-spacing="4" fill="#5d5a54">石 像 · MARBLE ARCHIVE</text>
+</svg>
